@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [longitude, latitude]
+      },
+      "properties": {
+        "wind_speed": 15,   // Wind speed in meters per second
+        "wind_direction": 45   // Wind direction in degrees
+      }
+    },
+    // Add more features here for other wind data points
+  ]
+}
